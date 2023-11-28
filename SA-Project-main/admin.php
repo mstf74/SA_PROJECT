@@ -174,7 +174,7 @@ if (isset($_POST['update_product'])) {
                      <input type="hidden"class="box" name="update_p_id" value="<?php echo $fetch_edit['id']; ?>">
                      <input type="text" class="box" required name="update_p_name" value="<?php echo $fetch_edit['name']; ?>">
                      <input type="number" min="0" class="box" required name="update_p_price" value="<?php echo $fetch_edit['price']; ?>">
-                     <textarea name="p_description" placeholder="Enter the product description" class="box" required value="<?php echo $fetch_edit['description']; ?>"></textarea>
+                     <textarea name="update_p_description" placeholder="Enter the product description" class="box" required value="<?php echo $fetch_edit['description']; ?>"></textarea>
                      <input type="file" class="box" required name="update_p_image" accept="image/png, image/jpg, image/jpeg">
                      <input type="submit" value="update the prodcut" name="update_product" class="btn">
                      <input type="reset" value="cancel" id="close-edit" class="option-btn">
